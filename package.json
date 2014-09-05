@@ -1,0 +1,12 @@
+{
+  "name": "animate-js",
+  "version": "0.0.1",
+  "description": "Easy js port for animate.css",
+  "repository": "git@github.com:fritx/animate-js.git",
+  "keywords": [
+    "animate.css",
+    "animate",
+    "js",
+    "css"
+  ]
+}

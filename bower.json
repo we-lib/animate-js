@@ -1,0 +1,17 @@
+{
+  "name": "animate-js",
+  "version": "0.0.1",
+  "description": "Easy js port for animate.css",
+  "main": "animate.js",
+  "repository": "git@github.com:fritx/animate-js.git",
+  "ignore": [
+    "node_modules",
+    "test",
+    "*.tgz",
+    "*.log"
+  ],
+  "dependencies": {
+    "animate.css": "*",
+    "jquery": "*"
+  }
+}
