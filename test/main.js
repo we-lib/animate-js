@@ -2,6 +2,10 @@ var $box = $('#box')
 
 QUnit.config.testTimeout = 5000 // 5s timeout
 
+QUnit.test('return chain', function(assert){
+  assert.ok($box.anim('shake').get(0) === $box.get(0))
+})
+
 QUnit.test('add classes', function(assert){
   $box.anim('bounceIn')
   assert.ok($box.is('.animated.bounceIn'))

@@ -17,7 +17,7 @@
   function animateCss(classes, cb){
     var $el = $(this)
     classes = 'animated ' + classes
-    $el.addClass(classes)
+    return $el.addClass(classes)
     .one(endKeys, function(){
       $el.removeClass(classes)
       if (cb) cb()
