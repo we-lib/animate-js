@@ -2,8 +2,8 @@
 // jquery/zepto plugin
 ;(function(window, $){
 
-  // fn name is `anim`
-  var fnKey = 'anim'
+  // fn name is `animateCss`
+  var fnKey = 'animateCss'
   var endKeys = [
     'webkitAnimationEnd',
     'mozAnimationEnd',

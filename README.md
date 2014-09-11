@@ -12,7 +12,7 @@ Easy js port for [animate.css](https://github.com/daneden/animate.css)
 
 ```js
 var $box = $('#box')
-$box.anim('bounceIn', function(){
-  $box.anim('zoomOutDown')
+$box.animateCss('bounceIn', function(){
+  $box.animateCss('zoomOutDown')
 })
 ```
